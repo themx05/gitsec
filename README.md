@@ -1,19 +1,21 @@
-# A tool that helps to automate github action secrets configuration across many repositories in a project
+# Github Secrets
+A tool that helps to automate github action secrets configuration across many repositories in a project
 
-# HOW TO INSTALL
 
-    ```
-        chmod +x install
-        sudo ./install
-    ```
+### Installation (linux)
 
-# HOW TO RUN
+  ```
+    chmod +x install
+    sudo ./install
+  ```
 
-    ```
-        github-secrets -f <your file path>
-    ```
+### How to run
 
-## configuration file structure
+  ```
+    github-secrets -f <your file path>
+  ```
+
+### Configuration file structure
 
 ```
 authorization:
