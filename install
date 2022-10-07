@@ -1,0 +1,9 @@
+#! /bin/bash
+echo "GitHub Actions Secrets 
+    \n Automating github secrets configuration within a project through a simple configuration file"
+
+cp ./src/runner.py /usr/bin/github-secrets
+chmod +x /usr/bin/github-secrets
+
+echo "Installed GitHub Secrets"
+echo "`github-secrets -h`"
